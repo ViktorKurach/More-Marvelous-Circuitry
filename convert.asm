@@ -65,7 +65,4 @@ onebyte {}
 { loop zo; sub r9, 0; }
 final {}
 { or r15, r8; }       \ r15[7-0] := buffer
-
-{ load rn, flags; }
 end {}
-{ or nil, r5, z; oey; ewl; } \ RgA := 0000 REGx
